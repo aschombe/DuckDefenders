@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>DuckDefenders</title>
+    <head><h1>Welcome to Our Website: Duck Defenders</h1></head>
+    <body>
+        <nav>
+            <title1><u>Features</u></title1>
+            <ul>
+                <li><a href="aboutus.html">About Us</a></li>
+                <li><a href="tools.html">Security Tools</a></li>
+                <li><a href="articles.html">Educational Articles</a></li>
+                <!-- <li><a href = "\contacts.html">Contact Us</a></li> Link to contact form later-->
+            </ul>
+        </nav>
+         <title2><u>News Articles About Recent Breaches</u></title>
+        <ul>
+            <li><a href="https://tech.co/news/data-breaches-2022-so-far">Data Breaches That Have Happened in 2022 So Far</a></li>
+            <li><a href="https://www.upguard.com/blog/biggest-data-breaches">The 67 Biggest Data Breaches</a></li>
+            <li><a href="https://www.kaspersky.com/resource-center/definitions/data-breach">How Data Breaches Happen</a></li>
+            <li><a href="https://www.gao.gov/products/gao-07-737">Personal Information</a></li>
+            <li><a href="https://www.digitalinformationworld.com/2022/08/social-media-profiles-are-getting.html">Social Media Profiles Are Getting Hacked At Alarming Ratea</a></li>
+        </ul>
+    </body>
+</html>

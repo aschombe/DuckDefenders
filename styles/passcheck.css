@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<!-- By Milind Kathiari-->
+<header>
+    <title>Password Checker</title>
+</header>
+<body>
+    <h1>Password Checker</h1>
+        <h3>Password Checker</h3>
+        <p>Enter a password here to check its quality.</p>
+        <p>THIS IS A PLACEHOLDER FORM</p>
+        <form action="passcheck.html" method="post">
+            <input type="text" name="password" placeholder="Enter Password">
+            <input type="submit" value="Submit">
+        </form>
+    </div>    
+</body>
+</html>
