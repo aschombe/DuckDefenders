@@ -5,9 +5,17 @@
     font-family: 'Montserrat', sans-serif;
     text-align: center;
     font-size: 2.5em;
-    color: #000000;
     margin-bottom: 0.5em;
-}
+} 
+
+.page_title {
+    background-image: url(https://media1.giphy.com/media/hTBdZxUHG2r0XwLFSL/giphy.gif?cid=790b7611276eb25acf8c03b9f14cee39744a9c3bc1fabb14&rid=giphy.gif&ct=g);
+    background-size: cover;
+    color: transparent;
+    -moz-background-clip: text;
+    -webkit-background-clip: text;
+    text-transform: uppercase;
+  }
 
 .foot {
     background-color: #999999   ;
