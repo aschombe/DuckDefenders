@@ -1,11 +1,51 @@
+html{overflow:hidden;}
 h1 {
 /* make it bold */
 text-align: center;
-font: 50px/1.5 Arial, Helvetica, sans-serif;
+font: 40px/1.5 Arial, sans-serif;
 font-weight: bold;
-color: red;
+color: #3c3bfa;
+background-color: #252525;
+margin-top: -10px;
+margin-left:-10px;
+margin-right:-10px;
 }
 
 .features {
-font: 20px/1.5 Arial, Helvetica, sans-serif;
+font: 20px/1.5 Arial, sans-serif;
+}
+.split {
+    height: 50%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 30px;
+    margin-top:6%;
+    margin-bottom: 25%;
+}
+.left{
+    left:0;
+}
+.right{
+    right:0;
+}
+.rectangle {
+    width: 75%;
+    height: 90%;
+    margin-left:auto;
+    margin-right:auto;
+    overflow-x: hidden;
+    outline: 2px solid #000000;
+    z-index: -1;
+}   
+.sqaure1 {
+    width: 50%;
+    height: 50%;
+    margin-left:auto;
+    margin-right:auto;
+    overflow-x: hidden;
+    outline: 2px solid #000000;
+    z-index: -1;
 }
