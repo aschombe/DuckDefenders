@@ -1,0 +1,11 @@
+h1 {
+/* make it bold */
+text-align: center;
+font: 50px/1.5 Arial, Helvetica, sans-serif;
+font-weight: bold;
+color: red;
+}
+
+.features {
+font: 20px/1.5 Arial, Helvetica, sans-serif;
+}
