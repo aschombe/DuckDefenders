@@ -11,10 +11,8 @@ margin-left:-10px;
 margin-right:-10px;
 }
 
-
-
 .split {
-    height: 50%;
+    height: 60%;
     width: 50%;
     position: fixed;
     z-index: 1;
@@ -48,8 +46,37 @@ margin-right:-10px;
     margin-right:auto;
     overflow-x: hidden;
     font-size: 2.25em;
-   
 }
+.right a#c1 {
+    color: #ffffd1;
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.right a#c2 {
+    color: #ffffd1;
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.right a#c3 {
+    color: #ffffd1;
+    text-decoration: none;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+.right a#c4 {
+    color: #ffffd1;
+    text-decoration: none;
+    font-weight: bold;
+}
+.right a#c5 {
+    color: #ffffd1;
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
 .right .circle1, .circle2, .circle3, .circle4, .circle5 {
     width: 150px;
     height: 150px;
@@ -68,27 +95,43 @@ margin-right:-10px;
     text-align: center;
     font-size: 1.25em;
 }
-#circle1:link {color: #26619c;}
-#circle1:hover {color: #efeff6;}
-#circle1:visited {color: #ffffd1;}
 
 .circle2 {
     position:relative;
     left: 500px;
     top: -130px;
+    background: url("/images/circle2.jpeg") no-repeat;
+    background-size: cover;
+    text-align: center;
+    font-size: 1.25em;
 }
 .circle3 {
     position:relative;
     left: 300px;
     top: -280px;
+    background: url("/images/circle3.jpeg") repeat;
+    background-size: calc(100% + 10px);
+    background-position: center;
+    text-align: center;
+    font-size: 1.25em;
 }
 .circle4 {
     position:relative;
     left: 200px;
     top: -270px;
+    background: url("/images/circle4.jpeg") repeat;
+    background-size: calc(200% + 10px);
+    background-position: center;
+    text-align: center;
+    font-size: 1.25em;
 }
 .circle5 {
     position:relative;
     left: 400px;
     top: -420px;
+    background: url("/images/circle5.png") repeat;
+    background-size: 110%;
+    background-position: center;
+    text-align: center;
+    font-size: 1.25em;
 }
