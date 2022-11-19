@@ -11,13 +11,11 @@
   /* Control the left side */
   .left {
     left: 0;
-    /* background-color: #111; */
   }
   
   /* Control the right side */
   .right {
     right: 0;
-    /*background-color: red; */
   }
   
   /* If you want the content centered horizontally and vertically */
@@ -28,3 +26,11 @@
     transform: translate(-50%, -50%);
     text-align: center;
   }
+
+  .pw{
+    outline: auto;
+    /* outline: scale();   */
+  }
+ /* .pw-copy{
+  width: 100%
+ } */
