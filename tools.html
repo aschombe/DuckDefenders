@@ -9,10 +9,9 @@
     <title>Security Tools</title>
 </header>
 
-<body>
     <h1 class='page_title'>Security Tools</h1>
     <div class="split left">
-        <div class="centered">
+        <div class="centered gen">
             <h1>PASSWORD GENERATOR</h1>
             <!-- <link rel="stylesheet" href="styles/toolst.css"> -->
             <div class="pw-container">
@@ -45,26 +44,40 @@
                         <input id="symbol" type="checkbox">
                     </div>
                     <button class="generate" id="generate">Generate Password</button>
-                    <script src="scripts/toolst.js"></script>
+                    <script src="scripts/passgen.js"></script>
                 </div>
             </div>
-</body>
+            <!-- Password Strength Checker -->
+            <div class="checker">
+                <h4>
+                    Password Strength Checker
+                </h4>
+                <br>
+                <input type="password" placeholder="Type your password" id="PassEntry" class="form-control passwordInput">
+                <br>
+                <span id="StrengthDisp" class="badge displayBadge">Weak</span>
+                <br>
+                <script src="scripts/passcheck.js"></script>
+            </div>
+    </div>
+</div>
 
-<!-- CONTENT GOES HERE -->
-</div>
-</div>
 
 <div class="split right">
     <div class="centered">
-        <p>HELLO WORLD</p>
-        <!-- CONTENT GOES HERE -->
+        <h2>Password Leak Checker</h2>
+        <input type="password" placeholder="Type your password" id="passwordIput">
+        <br><button class="check">Check</button>
+        <output id='output' class="output"></output>
+        <!-- <script src="https://cdn.jsdelivr.net/npm/@mathiscode/password-leak@latest"></script> -->
+        <script src="scripts/passleak.js"></script>
     </div>
 </div>
 <div>
     <h3>Basic Tools</h3>
-    <li><a href="passgen.html">Password Generator</a></li>
-    <li><a href="passcheck.html">Password Checker</a></li>
-    <li><a href="pwned.html">Have I been Pwned?</a></li>
+    <li><a href="passgen.html">FINISHED (unstyled) - Password Generator</a></li>
+    <li><a href="passcheck.html">FINISHED (unstyled) - Password Checker</a></li>
+    <li><a href="pwned.html">Email, Password - Have I been Pwned?</a></li>
 
 </div>
 <div>
@@ -81,7 +94,6 @@
 <!-- This page is for the tools used in the project -->
 <footer class='foot'>
     <p>© 2022 DuckDefenders</p>
-    <a href="toolst.html">TOOLST<br></a>
     <a href="index.html">Home<br></a>
     <a href="aboutus.html">About Us<br></a>
     <a href="articles.html">Articles</a>
