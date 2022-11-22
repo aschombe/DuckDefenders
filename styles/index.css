@@ -323,24 +323,20 @@
     }
 }
     
-@media screen and (max-width: 767px) {
-    /* start of medium tablet styles */
-    
-}
-    
 @media screen and (max-width: 479px) {
     /* start of phone styles */
     /* html{overflow:hidden;} */
-    h1 {
-    /* make it bold */
-    text-align: center;
-    font: 40px/1.5 Arial, sans-serif;
-    font-weight: bold;
-    color: #3c3bfa;
-    background-color: #252525;
-    margin-top: -10px;
-    margin-left:-10px;
-    margin-right:-10px;
+    .mobile {
+        height: 20vw;
+        width: 50vw;
+        position: relative;
+        text-align: center;
+        font-weight: bold;
+        color: #3c3bfa;
+        background-color: #252525;
+        margin-top: -10px;
+        margin-left:-10px;
+        margin-right:-10px;
     }
 
     .split {
@@ -431,8 +427,8 @@
     .right .circle1, .circle2, .circle3, .circle4, .circle5 {
         /* width: 150px; */
         /* height: 150px; */
-        width: 10vw;
-        height: 10vw;
+        width: 25vw;
+        height: 25vw;
         border-radius: 100%;
         /* background-color: #252525; */
         overflow-x: hidden;
@@ -441,52 +437,52 @@
     }
     .circle1 {
         position:relative;
-        left: 8%;
+        left: 10%;
         top: -5%;
         background: url("/images/circle1.jpeg") no-repeat;
         background-size: cover;
         text-align: center;
-        font-size: 1.25em;
+        font-size: 1em;
     }
 
     .circle2 {
         position:relative;
-        left: 40.5%;
-        bottom: 35%;
+        left: 60%;
+        top: -24%;
         background: url("/images/circle2.jpeg") no-repeat;
         background-size: cover;
         text-align: center;
-        font-size: 1.25em;
+        font-size: .72em;
     }
     .circle3 {
         position:relative;
-        left: 75%;
-        bottom: 65%;
+        left: 10%;
+        top: -15%;
         background: url("/images/circle3.jpeg") repeat;
         background-size: calc(100% + 10px);
         background-position: center;
         text-align: center;
-        font-size: 1.25em;
+        font-size: .8em;
     }
     .circle4 {
         position:relative;
-        left: 25%;
-        bottom: 65%;
+        left: 60%;
+        bottom: 34%;
         background: url("/images/circle4.jpeg") repeat;
         background-size: calc(200% + 10px);
         background-position: center;
         text-align: center;
-        font-size: 1.25em;
+        font-size: .7em;
     }
     .circle5 {
         position:relative;
-        left: 58%;
-        bottom: 95%;
+        left: 35%;
+        bottom: 25%;
         background: url("/images/circle5.png") repeat;
         background-size: 110%;
         background-position: center;
         text-align: center;
-        font-size: 1.25em;
+        font-size: 1em;
     }
     .mobile {
         display: block;
@@ -494,9 +490,4 @@
     .not-mobile {
         display: none;
     }
-}
-
-@media screen and (max-width: 1024px) {
-    /* start of ipad styles */
-    
 }
