@@ -27,26 +27,19 @@ h4 {
   margin: 0;
   padding: 0;
   text-align: center;
-  width: 100%;
+  width: auto;
   height: 100%;
   overflow: hidden;
 }
 
 .pass_gen {
   position: relative;
-  z-index: 1;
-  top: 7.5%;
+  /* z-index: 1; */
+  top: 5%;
+  align-self: center;
 }
 
-.leak_checker {
-  position: relative;
-  /* right: 12.5%;
-  top: 7.5%; */
-  left: 68%;
-  font-size:x-large;
-}
-
-.passwordInput{ 
+.passwordInput{
   text-align: center;
   font-size: medium;
   /* margin-top: -50%; */
@@ -60,24 +53,27 @@ h4 {
     font-size: x-large; 
     width: 25%;
     margin-left: 37.5%;
-
 }
 
 
 .adv_container {
-  position: relative;
+  /* position: relative; */
   height: 25%;
-  width: 75%;
-  /* margin-left: 46.875%;*/
-  left: 15%;
-  margin-top: 20%;
-  /* outline: auto; */
+  width: 100%;
+  /* left: 15%; */
+  margin-top: 5%;
+  outline: auto;
+}
+
+.adv_squares {
+  position: center;
+  outline: auto;
 }
 
 .adv_title {
   text-align: center;
   font-size: xx-large;
-  margin-bottom: 1%;
+  /* margin-bottom: 1%; */
 }
 
 .col{
@@ -100,6 +96,7 @@ h4 {
 
 .front,
 .back{
+  /* position: relative; */
   background-size: cover;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.25);
   border-radius: 10px;
@@ -134,8 +131,8 @@ h4 {
 
 .front:after{
   position: absolute;
-    top: 0;
-    left: 0;
+  top: 0;
+  left: 0;
     z-index: 1;
     width: 100%;
     height: 100%;
