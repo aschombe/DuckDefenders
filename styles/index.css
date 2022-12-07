@@ -160,7 +160,7 @@
     }
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1000px) and (min-width: 480px) {
     html{overflow:hidden;}
     h1 {
     /* make it bold */
