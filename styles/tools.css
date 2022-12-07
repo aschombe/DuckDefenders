@@ -62,12 +62,12 @@ h4 {
   width: 100%;
   /* left: 15%; */
   margin-top: 5%;
-  outline: auto;
+  /* outline: auto; */
 }
 
 .adv_squares {
   position: center;
-  outline: auto;
+  /* outline: auto; */
 }
 
 .adv_title {
@@ -90,7 +90,9 @@ h4 {
           perspective: 1000px;
 }
 
-#nmap
+#nmap {
+  position: relative;
+}
 
 #nmap{background-image: url(https://nmap.org/images/sitelogo.png)}
 #wireshark{background-image: url(https://static.javatpoint.com/tutorial/wireshark/images/wireshark-tutorial.png)}
