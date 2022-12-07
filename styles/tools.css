@@ -16,6 +16,8 @@ h4 {
 .checker {
   position: relative;
   text-align: center;
+  /* move up a lil bit */
+  margin-top: -7%;
 }
 
 .pw{
@@ -24,11 +26,9 @@ h4 {
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
-  margin: 0;
-  padding: 0;
   text-align: center;
-  width: auto;
-  height: 100%;
+  /* width: auto; */
+  /* height: 100%; */
   overflow: hidden;
 }
 
@@ -55,32 +55,29 @@ h4 {
     margin-left: 37.5%;
 }
 
-
-.adv_container {
-  /* position: relative; */
-  height: 25%;
-  width: 100%;
-  /* left: 15%; */
-  margin-top: 5%;
-  /* outline: auto; */
-}
-
-.adv_squares {
-  position: center;
-  /* outline: auto; */
+.entropy {
+  /* margin-top: 1%; */
+  display: none;
+  text-align: center;
+  outline: auto;
+  font-size: x-large;
+  width: 25%;
+  margin-left: 37.5%;
 }
 
 .adv_title {
   text-align: center;
   font-size: xx-large;
-  /* margin-bottom: 1%; */
+  margin-bottom: 1%;
 }
 
 .col{
+  /* dashed outline */
   width: calc(25% - 2rem);
   margin: 1rem;
-  cursor: pointer;
-  
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer; 
 }
 
 .container{
@@ -88,10 +85,6 @@ h4 {
           transform-style: preserve-3d;
   -webkit-perspective: 1000px;
           perspective: 1000px;
-}
-
-#nmap {
-  position: relative;
 }
 
 #nmap{background-image: url(https://nmap.org/images/sitelogo.png)}
