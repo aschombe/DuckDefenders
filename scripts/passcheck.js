@@ -18,7 +18,6 @@ function showPassword() {
     }
 }
 
-
 const calcEntropy = (charset, length) =>
   Math.round(length * Math.log(charset) / Math.LN2)
 
