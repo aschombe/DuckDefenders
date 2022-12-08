@@ -65,7 +65,11 @@ h4 {
   margin-left: 37.5%;
 }
 
-.adv_title {
+.tool_title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: center;
   text-align: center;
   font-size: xx-large;
   margin-bottom: 1%;
